@@ -1,0 +1,31 @@
+/* Home.css */
+.home-page {
+    background-image: url('../images/project1p1.jpg'); /* Use the background image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height to fill the viewport */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    position: relative;
+    color: white; /* Make the text white */
+    text-align: center;
+  }
+  
+  .home-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a dark overlay behind the text */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 3rem; /* Increase font size */
+  }
+  
+  p {
+    font-size: 1.2rem; /* Adjust paragraph font size */
+  }
+  .body-content {
+    padding: 100px 20px;
+    text-align: center;
+  }

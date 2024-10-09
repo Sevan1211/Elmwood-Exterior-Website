@@ -1,0 +1,151 @@
+/* Top Header */
+.top-header {
+    background-color: #ffffff;
+    padding: 0px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition */
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .top-header.hide {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  
+  .top-header-container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo {
+    width: 100px;
+    height: auto;
+    margin-left: 30px;
+  }
+  
+  .company-info {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Align to the start of the container */
+    text-align: center;
+  }
+  
+  .company-name {
+    font-size: 2rem;
+    font-variant: small-caps;
+    margin-bottom: -15px;
+    
+  }
+  
+  .company-slogan {
+    font-size: 1rem;
+    margin-left: 0px;
+    font-variant: small-caps;
+    color: black;
+  }
+  
+  .estimate-button {
+    background-color: #ffa631;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .estimate-button:hover {
+    background-color: #b97223;
+    text-decoration: none;
+  }
+  
+  /* Bottom Header (Sticky) */
+  .bottom-header {
+    width: 100%;
+    background-color: #ffa631;
+    z-index: 1000;
+    padding: 0px 0;
+    transition: top 0.3s ease-in-out;
+  }
+  
+  /* Initially position the bottom header relative, below the top header */
+  .relative-header {
+    position: relative;
+  }
+  
+  /* Once scrolled past top header, make it fixed at the top */
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-nav {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 5px;
+    padding-left: 0px;
+  }
+  
+  .nav-links button {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .nav-links button:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links .active {
+    font-weight: bold;
+    color: white;
+  }
+  .spacer {
+    display: none; /* Hidden by default */
+  }
+  
+  .spacer.active {
+    display: block;
+    height: 50px; /* Match the height of your bottom header */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .company-name {
+      font-size: 1.5rem;
+    }
+  
+    .header-logo {
+      width: 80px;
+    }
+  
+    .estimate-button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  

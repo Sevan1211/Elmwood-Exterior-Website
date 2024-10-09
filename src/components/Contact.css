@@ -1,0 +1,50 @@
+/* Contact.css */
+
+.contact-page {
+    padding: 250px 20px;
+    background-color: #fff;
+  }
+  
+  .contact-page h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-page form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contact-page button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-page button:hover {
+    background-color: #555;
+  }
+    
+  

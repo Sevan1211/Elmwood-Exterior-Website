@@ -1,0 +1,71 @@
+.project-section {
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .project-item {
+    position: relative;
+    text-align: center;
+  }
+  
+  .project-item img {
+    width: 600px; /* Set the desired width */
+    height: 600px; /* Adjust height to maintain aspect ratio */
+    max-width: 100%; /* Ensure responsiveness on smaller screens */
+    
+
+  }
+  .project-images {
+    display: flex; /* Use flexbox to align images horizontally */
+    gap: 10px; /* Optional: space between images */
+    justify-content: center; /* Center images horizontally */
+  }
+  
+  .project-info {
+    margin-top: 10px;
+  }
+  
+  .slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .slick-arrow {
+    font-size: 150px; /* Increase arrow size */
+    color: black; /* Customize arrow color */
+    opacity: 0.75;
+    transition: opacity 0.2s ease;
+  }
+  
+  .slick-arrow:hover {
+    opacity: 1;
+  }
+  
+  .slick-prev {
+    left: 25px; /* Position of the previous arrow */
+    z-index: 1;
+  }
+  
+  .slick-next {
+    right: 25px; /* Position of the next arrow */
+  }
+
+  .slick-prev:before, 
+  .slick-next:before {
+    color: black;
+  }
+  
+  /* Optional: Adjust arrow positions for smaller screens */
+  @media (max-width: 768px) {
+    .slick-prev {
+      left: 10px;
+    }
+    .slick-next {
+      right: 10px;
+    }
+  }
+  
+  
+  

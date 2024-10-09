@@ -1,0 +1,20 @@
+/* About.css */
+
+.about-section {
+    padding: 250px 20px;
+    background-color: #fff;
+  }
+  
+  .about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+ 

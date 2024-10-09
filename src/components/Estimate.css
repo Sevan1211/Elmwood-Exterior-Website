@@ -1,0 +1,45 @@
+/* Estimate.css */
+
+.estimate-section {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .estimate-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .estimate-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .estimate-form label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .estimate-form input,
+  .estimate-form select,
+  .estimate-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .estimate-form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .estimate-form button:hover {
+    background-color: #555;
+  }
+  
